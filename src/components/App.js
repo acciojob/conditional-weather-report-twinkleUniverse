@@ -11,11 +11,11 @@ const App = () => {
        {
         data.temperature<treshold?
         <div style={{color:'blue'}}>
-          <h1>Temperature: {data.temperature}</h1>
-          <h1>conditions: {data.conditions}</h1>
+          <p>Temperature: {data.temperature}</p>
+          <p>conditions: {data.conditions}</p>
         </div> : <div style={{color:'red'}}>
-          <h1>Temperature:{data.temperature}</h1>
-          <h1>Conditions:{data.conditions}</h1>
+          <p>Temperature:{data.temperature}</p>
+          <p>Conditions:{data.conditions}</p>
         </div>
        }
     </div>
