@@ -9,8 +9,8 @@ const App = () => {
 
   return (
     <div>
-         <p style={{color:tempColor}}>
-            Temperature: {data.temperature}
+         <p >
+         Temperature: <span style={{color:tempColor}}>{data.temperature}</span>
          </p>
          <p>
            Conditions: {data.conditions}
